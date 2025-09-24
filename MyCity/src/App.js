@@ -25,6 +25,7 @@ function App() {
         <Route path="/photos" element={<Photos />} />
         <Route path="/ping" element={<Ping />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
